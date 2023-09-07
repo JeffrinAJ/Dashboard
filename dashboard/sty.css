@@ -1,0 +1,190 @@
+button:hover{
+    background-color:white;
+}
+a{
+    text-decoration: none;
+}
+.a{
+    background-color: #000;
+    background-size: 100% 100%;
+}
+.buttons{
+    background-color: black;
+}
+.im
+{
+    transition:transform.2s;
+    align:center;
+}
+.im:hover
+{
+    transform:scale(1.2);
+    background-color: white;
+    color: rgb(255, 0, 0);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .flip-box {
+    background-color: transparent;
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: #555;
+    color: white;
+    transform: rotateY(180deg);
+  }
+.register{
+    background-image:url(img/back1.jpg);
+}
+.back{
+    background-image: url(img/back1.jpg);
+    padding:100px 0px 100px 430px;
+
+}
+.sizing{
+    opacity:0.3;
+    width:300px;
+}
+.mar{
+    margin-right:400px;
+}
+
+  .dropbtn {
+    
+    color: white;
+    background-color:black;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+   
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content .dash {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline;
+  }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+   /*dashboard*/
+
+   .body{
+    margin:0;
+    padding:0;
+   }
+   
+ul,li{
+  list-style-type:none;
+  margin:0px 0px 10px 10px;
+  padding:20px 0px 20px 0px;
+}
+.hovering:hover{
+  background-color:white;
+  padding:10px;
+  color:rgb(255, 0, 0);
+  transform:scale(1.2);
+  font-weight: bold;
+}
+.bor{
+  border:0.5px solid white;
+}
+@import url(https://fonts.googleapis.com/css?family=Saira+Stencil+One);
+
+/* Base */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #000 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Saira Stencil One", cursive;
+}
+
+.vid{
+  position:relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.col1{
+    height: 150px;
+    text-align: center;
+}
+
+.na{
+    color: rgb(255, 255, 255) !important;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 100px;
+}
+
+.na1{
+    color: rgb(255, 255, 255) !important;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 100px;
+    margin-left: 400px;
+}
+.na2{
+    color: rgb(255, 255, 255) !important;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50px;
+}
+
+.na3{
+    background-color: black;
+}
